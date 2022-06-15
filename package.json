@@ -1,0 +1,38 @@
+{
+  "name": "dcl-project",
+  "version": "1.0.0",
+  "description": "My new Decentraland project",
+  "scripts": {
+    "start": "CI=true dcl start -p ${PORT:=8000}",
+    "build": "build-ecs",
+    "watch": "build-ecs --watch",
+    "ecs:install": "npm install --save-dev decentraland-ecs@latest",
+    "ecs:install-next": "npm install --save-dev decentraland-ecs@next",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@dcl/eslint-config": "^1.0.1",
+    "decentraland-ecs": "latest"
+  },
+  "dependencies": {
+    "@dcl/crypto-scene-utils": "^1.1.1",
+    "@dcl/ecs-scene-utils": "^1.7.5",
+    "@dcl/npc-scene-utils": "^1.4.0",
+    "@dcl/ui-scene-utils": "^1.8.3",
+    "dcldash": "^0.0.33",
+    "decentraland": "^3.4.6",
+    "decentraland-builder-scripts": "latest",
+    "decentraland-transactions": "^1.37.0",
+    "eth-connect": "^6.0.2"
+  },
+  "bundleDependencies": [
+    "@dcl/crypto-scene-utils",
+    "@dcl/ecs-scene-utils",
+    "@dcl/npc-scene-utils",
+    "@dcl/ui-scene-utils",
+    "dcldash",
+    "decentraland-transactions",
+    "eth-connect"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "display": {
+    "title": "The Cursed Estate",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "images/Scene_preview.png",
+    "description": "An experience out of this world, made by Wonderbox Labs! Explore the Cursed Estate, if you dare. Will you find what is hiding in plain sight?"
+  },
+  "description": "An experience out of this world, made by Wonderbox Labs! Explore the Cursed Estate, if you dare. Will you find what is hiding in plain sight?",
+  "contact": {
+    "name": "Wonderbox Labs",
+    "website": "https://www.wonderboxlabs.com/"
+  },
+  "owner": "Wonderbox Labs",
+  "scene": {
+    "parcels": [
+      "-29,87",
+      "-29,88",
+      "-29,89",
+      "-28,87",
+      "-28,88",
+      "-28,89"
+    ],
+    "base": "-29,87"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 1,
+        "y": 0,
+        "z": 16
+      },
+      "cameraTarget": {
+        "x": 10,
+        "y": 1,
+        "z": 19
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE"
+  ]
+}
