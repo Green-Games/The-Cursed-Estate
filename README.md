@@ -1,14 +1,6 @@
-<!-- # Minigame demo
-_demo of shooting-range scene running in preview._
-
-![demo](https://github.com/decentraland-scenes/shooting-range/blob/master/screenshots/shooting-range.gif) -->
-
 ## Description
-Basic gun game mechanic.
-
-## Instructions
-To spawn the targets you have to interact with the black block.
-Make you stand inside the shooting area marked in red before firing at the targets. Use your mouse to look around and <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> keys on your keyboard to move forward, left, backward and right respectively. Press the <kbd>Space</kbd> key to jump and the <kbd>Left Mouse Button</kbd> to shoot.
+An experience out of this world, made by Wonderbox Labs!
+Explore the Cursed Estate, if you dare. Will you find what is hiding in plain sight?
 
 ## Try it out
 
@@ -31,4 +23,3 @@ $  dcl start
 ## Acknowledgements
 The following files were taken from https://freesound.org/:
 - _shot.mp3_ modified from https://freesound.org/people/MATRIXXX_/sounds/473846/ 
-<!-- - _shotFail.mp3_ modified from https://freesound.org/people/jackyyang09/sounds/467432/ -->
